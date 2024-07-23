@@ -1,0 +1,118 @@
+.Claims-Component {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    height: 100%;
+    padding: 20px 0px;
+}
+
+.Claims-Component .title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.Claims-Component .claims {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Claims-Component .claim {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 15px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    color: #333;
+}
+
+.Claims-Component .claim-info {
+    margin-bottom: 15px;
+}
+.Claims-Component .claim-info-2 .property {
+    text-align: center;
+    display: block;
+}
+.Claims-Component .claim-info-2 .property .flex-input {
+    display: flex;
+    width: 100%;
+    gap: 1%;
+}
+.Claims-Component .claim-info-2 .property .flex-input input {
+    width: 49.5%;
+}
+.Claims-Component .claim-info-2 .property-value {
+    display: flex;
+    justify-content: center;
+}
+
+.Claims-Component .property {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    align-items: center;
+    text-align: justify;
+}
+
+.Claims-Component .property-label {
+    font-size: 14px;
+    color: #666;
+}
+
+.Claims-Component .property input,
+.Claims-Component .property select {
+    flex: 1;
+    padding: 2px;
+}
+
+.Claims-Component .property input[type="checkbox"] {
+    flex: 0;
+}
+
+.Claims-Component .property-value {
+    font-size: 16px;
+}
+
+.Claims-Component .policy-info {
+    /* Add styles for policy details if needed */
+}
+
+.Claims-Component .status-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Claims-Component button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.Claims-Component button:hover {
+    background-color: #45a049;
+}
+
+.Claims-Component .bin-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Claims-Component .icon {
+    color: brown;
+    cursor: pointer;
+}
+
+.Claims-Component .empty-claims {
+    text-align: center;
+    color: #999;
+    font-size: 18px;
+    margin-top: 20px;
+}

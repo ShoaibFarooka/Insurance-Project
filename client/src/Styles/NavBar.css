@@ -1,0 +1,78 @@
+.Navbar {
+    padding-top: 15px;
+}
+
+.Navbar .NavRow {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    width: 100vw;
+}
+
+.Navbar .NavLinks {
+    display: flex;
+    gap: 40px;
+    padding-left: 40px;
+}
+
+.Navbar .NavLinks p {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.Navbar .NavLinks .p-active {
+    color: rgb(167, 29, 29);
+}
+.Navbar .NavLinks .p-non-active:hover {
+    color: gray;
+}
+
+.Navbar .btn-div {
+    padding: 0;
+    padding-right: 40px;
+}
+
+.Navbar .logout-btn {
+    padding: 2px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #0D6EFD;
+    color: white;
+    border: none;
+
+    &:hover {
+        background-color: #0046af;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .Navbar .NavRow {
+        align-items: center;
+    }
+
+    .Navbar .NavLinks {
+        gap: 3vw;
+        padding-left: 2vw;
+    }
+
+    .Navbar .NavLinks p {
+        font-size: 14px;
+    }
+
+    .Navbar .btn-div {
+        padding: 0;
+        padding-right: 2vw;
+    }
+
+    .Navbar .logout-btn {
+        font-size: 12px;
+        padding: 3px 20px;
+    }
+}
